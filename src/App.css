@@ -1,3 +1,8 @@
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
+
   #root {
     max-width: 1240px;
     margin: 0 auto;
@@ -707,3 +712,4 @@
       border-color: #5E1B89;
       background-color: #FF7F4D;
   }
+}
