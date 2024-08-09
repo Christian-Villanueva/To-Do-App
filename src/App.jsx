@@ -43,7 +43,7 @@ function App() {
 
   const getData = (event) => {
     setTaskName(event.target.value);
-    console.log(event.target.value);
+    console.log("Data:", event.target.value);
   };
 
   const addTask = () => {
