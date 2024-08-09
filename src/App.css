@@ -708,6 +708,28 @@
       background-color: #FF7F4D;
   }
 
+  .btn-primary {
+    background-color: #F4512C;
+    border: none;
+    color: white;
+  }
+
+  .btn-primary:hover {
+    background-color: #c84325;
+    border:2px solid #5E1B89;
+  }
+
+  .btn-secondary {
+    background-color: #5E1B89;
+    border: none;
+    color: white;
+  }
+
+  .btn-secondary:hover {
+    background-color: #49156a;
+    border:2px solid #F4512C;
+  }
+
   @media only screen and (max-width: 1000px) {
     #root {
       transform: scale(1);
