@@ -597,7 +597,7 @@
     color: #5E1B89;
     font-size: 30px;
   }
-  
+
   .alert .msg {
     padding: 0 20px;
     font-size: 18px;
@@ -712,25 +712,25 @@
       background-color: #FF7F4D;
   }
 
+  .btn-danger,
   .btn-primary {
     background-color: #F4512C;
     border: 2px solid transparent;
     color: white;
   }
 
+  .btn-danger:hover,
   .btn-primary:hover {
     background-color: #c84325;
     border:2px solid #5E1B89;
   }
 
-  .btn-danger,
   .btn-secondary {
     background-color: #5E1B89;
     border: 2px solid transparent;
     color: white;
   }
 
-  .btn-danger:hover,
   .btn-secondary:hover {
     background-color: #49156a;
     border:2px solid #F4512C;
