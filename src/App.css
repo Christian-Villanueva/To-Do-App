@@ -708,10 +708,10 @@
       background-color: #FF7F4D;
   }
 
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 600px) {
     #root {
       transform: scale(1); /* Scale down the entire layout to 80% */
       transform-origin: top left; /* Ensure scaling starts from the top-left corner */
-      width: 600%; /* Adjust the width to keep the content centered */
+      width: auto; /* Adjust the width to keep the content centered */
     }
   }
