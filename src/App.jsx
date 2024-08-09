@@ -293,7 +293,7 @@ function App() {
           <div className="col taskList">
             {filteredTasks.map((element) => (
               !element.completed && (
-                <div className={0 % 2 === 0 ? 'taskFrame-odd': 'taskFrame-even'} key={element.id}>
+                <div className='taskFrame-odd' key={element.id}>
                   <div className="col checkbox">
                     <input type="checkbox" className="checkbox-style" completed={element.completed}
                       onChange={e => {toggleTask(element.id, e.target.checked);
@@ -330,7 +330,7 @@ function App() {
           <div className="col taskList">
             {filteredTasks.map((element) => (
               element.completed && (
-                <div className={0 % 2 === 0 ? 'doneTaskFrame-odd': 'doneTaskFrame-even'} key={element.id}>
+                <div className='doneTaskFrame-odd' key={element.id}>
                   <div className="col checkbox">
                     <input type="checkbox" completed={element.completed} checked="checked"
                       onChange={e => {toggleTask(element.id, e.target.checked);
