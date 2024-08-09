@@ -710,8 +710,8 @@
 
   @media only screen and (max-width: 1000px) {
     #root {
-      transform: scale(0.25); /* Scale down the entire layout to 80% */
+      transform: scale(1); /* Scale down the entire layout to 80% */
       transform-origin: top left; /* Ensure scaling starts from the top-left corner */
-      width: 175%; /* Adjust the width to keep the content centered */
+      width: 200%; /* Adjust the width to keep the content centered */
     }
   }
