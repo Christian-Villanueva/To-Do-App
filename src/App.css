@@ -712,6 +712,6 @@
     #root {
       transform: scale(1); /* Scale down the entire layout to 80% */
       transform-origin: top left; /* Ensure scaling starts from the top-left corner */
-      width: 300%; /* Adjust the width to keep the content centered */
+      width: 350%; /* Adjust the width to keep the content centered */
     }
   }
