@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const DeleteConfirmation = ({ show, handleClose, handleConfirm, task, deleteAllType }) => {
   const renderModalBody = () => {
     if (task) {
-      return <><span style={{ color: "rgb(50, 50, 50)"}}>Are you sure you want to <b>DELETE THIS TASK?</b></span><strong>{task?.task}</strong></>;
+      return <><span style={{ color: "rgb(30, 30, 180)"}}>Are you sure you want to <b>DELETE THIS TASK?</b></span><strong>{task?.task}</strong></>;
     }
     if (deleteAllType === 'pending') {
       return <><span style={{ color: "rgb(50, 50, 50)"}}>Are you sure you want to <b>DELETE ALL PENDING TASK?</b></span></>;
