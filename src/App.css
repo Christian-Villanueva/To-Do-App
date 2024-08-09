@@ -7,7 +7,6 @@
 
   .header {
     height: 90px;
-    resize: none;
   }
 
   .icon-img-resize {
@@ -29,6 +28,7 @@
     margin: 0px;
     opacity: 100;
     position: absolute;
+    resize: none;
   }
 
   #horizontal {
@@ -68,6 +68,7 @@
     color: #fb936a;
     font-family: 'Franklin Gothic Medium';
     font-size: 20px;
+    resize: none;
   }
 
   .no-pending i {
@@ -83,6 +84,7 @@
     color: #9D71BC;
     font-family: 'Franklin Gothic Medium';
     font-size: 20px;
+    resize: none;
   }
 
   .no-completed i {
@@ -97,10 +99,12 @@
     display:flex;
     align-items: flex-start;
     justify-content: space-between;
+    resize: none;
   }
 
   .col {
     display: flex;
+    resize: none;
   }
     
   .label-only {
