@@ -5,7 +5,7 @@ const DeleteConfirmation = ({ show, handleClose, handleConfirm, task, deleteAllT
   const renderModalBody = () => {
     if (task) {
       return <><span style={{ color: "rgb(55, 53, 53)"}}>Are you sure you want to <b>DELETE THIS TASK?</b></span>
-      <strong style={{ color: "rgb(42, 40, 40)"}}>{task?.task}</strong></>;
+      <strong style={{ color: "rgb(55, 53, 53)"}}>{task?.task}</strong></>;
     }
     if (deleteAllType === 'pending') {
       return <><span style={{ color: "rgb(55, 53, 53)"}}>Are you sure you want to <b>DELETE ALL PENDING TASK?</b></span></>;
