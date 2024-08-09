@@ -1,8 +1,4 @@
-@media (max-width: 768px) {
-  .App {
-    padding: 10px;
-  }
-
+@media (max-width: 400px) {
   #root {
     max-width: 1240px;
     margin: 0 auto;
