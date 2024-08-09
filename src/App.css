@@ -707,3 +707,108 @@
       border-color: #5E1B89;
       background-color: #FF7F4D;
   }
+
+  @media (max-width: 600px) {
+    #root {
+      padding: 1rem;
+    }
+  
+    .header {
+      height: 60px;
+    }
+  
+    .icon-img-resize {
+      max-width: 200px;
+    }
+  
+    .logo-img-resize {
+      max-width: 100px;
+      margin: 5px;
+    }
+  
+    .no-pending,
+    .no-completed {
+      transform: translate(0px, 0px);
+      font-size: 16px;
+    }
+  
+    .no-pending i,
+    .no-completed i {
+      font-size: 100px;
+    }
+  
+    .label {
+      height: 30px;
+    }
+  
+    .content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .col {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .label-input {
+      margin: 10px;
+    }
+  
+    .bar-code {
+      font-size: 40px;
+    }
+  
+    .all {
+      font-size: 12px;
+    }
+  
+    .taskInput {
+      width: 100%;
+      margin-left: 0;
+      padding-left: 10px;
+    }
+  
+    .search {
+      width: 100%;
+      margin-left: 0;
+      padding-left: 40px;
+    }
+  
+    .search-button {
+      transform: translate(-90%, 25px);
+    }
+  
+    .taskFrame-odd,
+    .taskFrame-even,
+    .doneTaskFrame-odd,
+    .doneTaskFrame-even {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .date-created-frame {
+      justify-content: center;
+      padding: 0;
+    }
+  
+    .edit-date {
+      margin: 10px 0;
+    }
+  
+    .picker-container,
+    .modal-picker-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .modal-label-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .modal-date-time-picker input[type="date"],
+    .modal-date-time-picker input[type="time"] {
+      width: 100%;
+    }
+  }
